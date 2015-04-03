@@ -91,7 +91,7 @@ import javax.swing.Icon;
     public Ex2()
     {
      //título  da janela
-     super("Calculo do IMC(índice de massa corporal)");
+     super("Calculo do IMC(índice de massa corporal dos brasileiros)"); // alteração
      //alinhamento do frame com o uso do objeto flowLayout
      super.setLayout(flowLayout);
      //tamanho da janela
