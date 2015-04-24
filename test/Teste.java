@@ -23,6 +23,7 @@ public class Teste {
 
     @Test
     public void testCalculaIMC() {
+        System.out.println("Testes");
         Ex2 ex =  new Ex2();
         assertEquals(34.602076124567475, ex.calculaIMC(1.70, 100), 0.0);
         assertFalse(ex.calculaIMC(1.70, 100)== 32.90);
