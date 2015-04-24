@@ -160,8 +160,8 @@ import javax.swing.Icon;
     }
     
       public double calculaIMC(double altura, double peso){
-        double massaTmp = peso/(altura*altura);
-        return massaTmp;
+        double massa = peso/(altura*altura);
+        return massa;
     }
     
     
