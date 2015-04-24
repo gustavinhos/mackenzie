@@ -158,6 +158,13 @@ import javax.swing.Icon;
      }//Fim da classe interna anônima
      );//fim da chamada para addActionListerner
     }
+    
+      public double calculaIMC(double altura, double peso){
+        double massaTmp = peso/(altura*altura);
+        return massaTmp;
+    }
+    
+    
  
     //método que realiza os calculos
     private void Calculos()
